@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_idlecard","order":2,"path":"sprites/spr_idlecard/spr_idlecard.yy",},
+    {"name":"spr_upgradecard","order":1,"path":"sprites/spr_upgradecard/spr_upgradecard.yy",},
+  ],
 }
