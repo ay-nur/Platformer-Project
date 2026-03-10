@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_idlecard","order":2,"path":"sprites/spr_idlecard/spr_idlecard.yy",},
+    {"name":"spr_invisibleblock","order":3,"path":"sprites/spr_invisibleblock/spr_invisibleblock.yy",},
     {"name":"spr_upgradecard","order":1,"path":"sprites/spr_upgradecard/spr_upgradecard.yy",},
   ],
 }
