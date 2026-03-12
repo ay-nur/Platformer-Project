@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_idlecard",
-    "path":"sprites/spr_idlecard/spr_idlecard.yy",
+    "name":"spr_playercard",
+    "path":"sprites/spr_playercard/spr_playercard.yy",
   },
   "spriteMaskId":null,
   "visible":true,
