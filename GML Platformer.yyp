@@ -41,6 +41,8 @@
     {"id":{"name":"spr_invisibleblock","path":"sprites/spr_invisibleblock/spr_invisibleblock.yy",},},
     {"id":{"name":"spr_jumpcard","path":"sprites/spr_jumpcard/spr_jumpcard.yy",},},
     {"id":{"name":"spr_playercard","path":"sprites/spr_playercard/spr_playercard.yy",},},
+    {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

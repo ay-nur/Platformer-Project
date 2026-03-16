@@ -5,5 +5,6 @@
     {"name":"spr_idlecard","order":2,"path":"sprites/spr_idlecard/spr_idlecard.yy",},
     {"name":"spr_invisibleblock","order":3,"path":"sprites/spr_invisibleblock/spr_invisibleblock.yy",},
     {"name":"spr_jumpcard","order":1,"path":"sprites/spr_jumpcard/spr_jumpcard.yy",},
+    {"name":"spr_tileset","order":4,"path":"sprites/spr_tileset/spr_tileset.yy",},
   ],
 }
