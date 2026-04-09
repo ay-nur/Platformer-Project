@@ -9,6 +9,8 @@
     {"name":"spr_sign1","order":6,"path":"sprites/spr_sign1/spr_sign1.yy",},
     {"name":"spr_sign2","order":7,"path":"sprites/spr_sign2/spr_sign2.yy",},
     {"name":"spr_sign3","order":8,"path":"sprites/spr_sign3/spr_sign3.yy",},
+    {"name":"spr_sign4","order":9,"path":"sprites/spr_sign4/spr_sign4.yy",},
+    {"name":"spr_sign5","order":10,"path":"sprites/spr_sign5/spr_sign5.yy",},
     {"name":"spr_tileset","order":4,"path":"sprites/spr_tileset/spr_tileset.yy",},
   ],
 }

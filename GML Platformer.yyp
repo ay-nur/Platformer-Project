@@ -45,6 +45,8 @@
     {"id":{"name":"spr_sign1","path":"sprites/spr_sign1/spr_sign1.yy",},},
     {"id":{"name":"spr_sign2","path":"sprites/spr_sign2/spr_sign2.yy",},},
     {"id":{"name":"spr_sign3","path":"sprites/spr_sign3/spr_sign3.yy",},},
+    {"id":{"name":"spr_sign4","path":"sprites/spr_sign4/spr_sign4.yy",},},
+    {"id":{"name":"spr_sign5","path":"sprites/spr_sign5/spr_sign5.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
