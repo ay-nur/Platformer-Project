@@ -11,6 +11,8 @@
     {"name":"spr_sign3","order":8,"path":"sprites/spr_sign3/spr_sign3.yy",},
     {"name":"spr_sign4","order":9,"path":"sprites/spr_sign4/spr_sign4.yy",},
     {"name":"spr_sign5","order":10,"path":"sprites/spr_sign5/spr_sign5.yy",},
+    {"name":"spr_sign6","order":11,"path":"sprites/spr_sign6/spr_sign6.yy",},
+    {"name":"spr_sign7","order":12,"path":"sprites/spr_sign7/spr_sign7.yy",},
     {"name":"spr_tileset","order":4,"path":"sprites/spr_tileset/spr_tileset.yy",},
   ],
 }
