@@ -6,24 +6,40 @@ key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
 // Is player on a wall
-var onAWall = place_meeting(x+5, y, obj_wall) - place_meeting(x-5, y, obj_wall);
+var onAWall = place_meeting(x+5, y, obj_nojumpwall) - place_meeting(x-5, y, obj_nojumpwall);
+var onGround = place_meeting(x, y + 1, obj_wall) + place_meeting(x, y+1, obj_nojumpwall);
+
 
 //Calculate movement
 mvtLocked = max(mvtLocked -1, 0);
 
-var _move = key_right - key_left;
-hsp = _move * walksp; 
 
+ 
+//if (alarm[0] <= 1){
+    var _move = key_right - key_left;
+    hsp = _move * walksp;
+//}
+//else {
+//    show_debug_message("alarm[0] = " + string(alarm[0]))
+//}
 
-	
 
 //Horizontal collision
-if (place_meeting(x+hsp,y,obj_wall))  { 
-    while (!place_meeting(x+sign(hsp),y,obj_wall))  { 
+if (place_meeting(x+hsp,y,obj_wall)) {
+    while (!place_meeting(x+sign(hsp),y,obj_wall)) { 
         x = x + sign(hsp); 
         } 
+    
     hsp = 0;
 	}
+
+if (place_meeting(x+hsp,y,obj_nojumpwall)) {
+    while (!place_meeting(x+sign(hsp),y,obj_nojumpwall)) { 
+        x = x + sign(hsp); 
+        } 
+    
+    hsp = 0;
+    }
 	
 
 // Jumping mechanic
@@ -32,8 +48,8 @@ if (mvtLocked <= 0) {
     else vsp = vsp + grv;
             
     if (key_jump) {
-        if (place_meeting(x, y+1, obj_wall)) && (key_jump) {
-            vsp = -jumpsp
+        if (onGround) {
+            vsp = -jumpsp;
 	       }
         if (onAWall != 0) {
             vsp = -jumpsp;
@@ -43,6 +59,7 @@ if (mvtLocked <= 0) {
     }
 }
 x = x + hsp;
+
 //Keep within the room
 if (x < 32) x = 32; 
     
@@ -51,6 +68,13 @@ if (x > (room_width-32)) x = room_width-32;
 //Vertical  collision
 if (place_meeting(x,y+vsp,obj_wall)) { 
     while (!place_meeting(x,y+sign(vsp),obj_wall))  { 
+        y = y + sign(vsp); 
+    } 
+    vsp = 0;
+}
+
+if (place_meeting(x,y+vsp,obj_nojumpwall)) { 
+    while (!place_meeting(x,y+sign(vsp),obj_nojumpwall))  { 
         y = y + sign(vsp); 
     } 
     vsp = 0;
@@ -65,6 +89,7 @@ if (!place_meeting(x,y+1,obj_wall))  {
     image_speed = 0; 
     if (vsp > 0) image_index = 1; else image_index = 0;
 }
+
 else { 
     image_speed = 1; 
     if (hsp == 0)  { 
