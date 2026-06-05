@@ -5,7 +5,7 @@
     {"name":"obj_nojumpwall","order":2,"path":"objects/obj_nojumpwall/obj_nojumpwall.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"RM_Last","order":3,"path":"rooms/RM_Last/RM_Last.yy",},
-    {"name":"RM_Original","order":2,"path":"rooms/RM_Original/RM_Original.yy",},
+    {"name":"RM_original","order":2,"path":"rooms/RM_original/RM_original.yy",},
     {"name":"RM_Second","order":4,"path":"rooms/RM_Second/RM_Second.yy",},
     {"name":"spr_bluemushroom","order":22,"path":"sprites/spr_bluemushroom/spr_bluemushroom.yy",},
     {"name":"spr_grass","order":18,"path":"sprites/spr_grass/spr_grass.yy",},

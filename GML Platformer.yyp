@@ -39,7 +39,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"RM_Last","path":"rooms/RM_Last/RM_Last.yy",},},
-    {"id":{"name":"RM_Original","path":"rooms/RM_Original/RM_Original.yy",},},
+    {"id":{"name":"RM_original","path":"rooms/RM_original/RM_original.yy",},},
     {"id":{"name":"RM_Second","path":"rooms/RM_Second/RM_Second.yy",},},
     {"id":{"name":"RM_Start","path":"rooms/RM_Start/RM_Start.yy",},},
     {"id":{"name":"spr_bluemushroom","path":"sprites/spr_bluemushroom/spr_bluemushroom.yy",},},
@@ -73,9 +73,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"RM_Start","path":"rooms/RM_Start/RM_Start.yy",},},
-    {"roomId":{"name":"RM_Original","path":"rooms/RM_Original/RM_Original.yy",},},
     {"roomId":{"name":"RM_Second","path":"rooms/RM_Second/RM_Second.yy",},},
     {"roomId":{"name":"RM_Last","path":"rooms/RM_Last/RM_Last.yy",},},
+    {"roomId":{"name":"RM_original","path":"rooms/RM_original/RM_original.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
