@@ -35,10 +35,11 @@
   "name":"GML Platformer",
   "resources":[
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
-    {"id":{"name":"obj_nojumpwall","path":"objects/obj_nojumpwall/obj_nojumpwall.yy",},},
+    {"id":{"name":"obj_jumpwall","path":"objects/obj_jumpwall/obj_jumpwall.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_upgrade","path":"objects/obj_upgrade/obj_upgrade.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"RM_End","path":"rooms/RM_End/RM_End.yy",},},
     {"id":{"name":"RM_Last","path":"rooms/RM_Last/RM_Last.yy",},},
     {"id":{"name":"RM_original","path":"rooms/RM_original/RM_original.yy",},},
     {"id":{"name":"RM_Second","path":"rooms/RM_Second/RM_Second.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"spr_sign9","path":"sprites/spr_sign9/spr_sign9.yy",},},
     {"id":{"name":"spr_signlongjump","path":"sprites/spr_signlongjump/spr_signlongjump.yy",},},
     {"id":{"name":"spr_signwalljump","path":"sprites/spr_signwalljump/spr_signwalljump.yy",},},
+    {"id":{"name":"spr_theend","path":"sprites/spr_theend/spr_theend.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_upgradecard","path":"sprites/spr_upgradecard/spr_upgradecard.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
@@ -78,10 +80,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"RM_Last","path":"rooms/RM_Last/RM_Last.yy",},},
     {"roomId":{"name":"RM_Start","path":"rooms/RM_Start/RM_Start.yy",},},
     {"roomId":{"name":"RM_Second","path":"rooms/RM_Second/RM_Second.yy",},},
-    {"roomId":{"name":"RM_Last","path":"rooms/RM_Last/RM_Last.yy",},},
     {"roomId":{"name":"RM_original","path":"rooms/RM_original/RM_original.yy",},},
+    {"roomId":{"name":"RM_End","path":"rooms/RM_End/RM_End.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

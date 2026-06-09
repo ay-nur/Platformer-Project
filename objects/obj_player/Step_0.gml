@@ -6,8 +6,8 @@ key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
 // Is player on a wall
-var onAWall = place_meeting(x+5, y, obj_nojumpwall) - place_meeting(x-5, y, obj_nojumpwall);
-var onGround = place_meeting(x, y + 1, obj_wall) + place_meeting(x, y+1, obj_nojumpwall);
+var onAWall = place_meeting(x+5, y, obj_jumpwall) - place_meeting(x-5, y, obj_jumpwall);
+var onGround = place_meeting(x, y + 1, obj_wall) + place_meeting(x, y+1, obj_jumpwall);
 
 
 //Calculate movement
@@ -33,8 +33,8 @@ if (place_meeting(x+hsp,y,obj_wall)) {
     hsp = 0;
 	}
 
-if (place_meeting(x+hsp,y,obj_nojumpwall)) {
-    while (!place_meeting(x+sign(hsp),y,obj_nojumpwall)) { 
+if (place_meeting(x+hsp,y,obj_jumpwall)) {
+    while (!place_meeting(x+sign(hsp),y,obj_jumpwall)) { 
         x = x + sign(hsp); 
         } 
     
@@ -73,8 +73,8 @@ if (place_meeting(x,y+vsp,obj_wall)) {
     vsp = 0;
 }
 
-if (place_meeting(x,y+vsp,obj_nojumpwall)) { 
-    while (!place_meeting(x,y+sign(vsp),obj_nojumpwall))  { 
+if (place_meeting(x,y+vsp,obj_jumpwall)) { 
+    while (!place_meeting(x,y+sign(vsp),obj_jumpwall))  { 
         y = y + sign(vsp); 
     } 
     vsp = 0;
