@@ -89,7 +89,6 @@ if (!place_meeting(x,y+1,obj_wall))  {
     image_speed = 0; 
     if (vsp > 0) image_index = 1; else image_index = 0;
 }
-
 else { 
     image_speed = 1; 
     if (hsp == 0)  { 
@@ -98,6 +97,7 @@ else {
     else  { 
         sprite_index = spr_playercard; 
     }
-}
+}    
+
 if (hsp != 0) image_xscale = sign(hsp);
 
